@@ -1,10 +1,9 @@
 import { ReactComponent as IconCheck } from "./images/icon-check.svg";
 import { ReactComponent as IconCross } from "./images/icon-cross.svg";
-import React from 'react';
+import React,{useContext} from 'react';
 import { actions } from "./App.js";
 import "./main-styles/task.css";
 import { ActiveTask,contexFromIndex} from "./Context";
-import { useContext } from "react/cjs/react.development";
 import { useState, useRef, useEffect } from "react";
 
 
